@@ -1,3 +1,6 @@
+# Custom values
+/private/
+# Default values
 /.bundle/
 /.yardoc
 /_yardoc/
