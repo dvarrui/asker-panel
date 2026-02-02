@@ -23,10 +23,10 @@ def build
     path = UI.open_file(@main_window)
     if path
       @filepath = path.to_s
-      puts "==> DEBUG: #{@filepath}"
+      puts "==> filepath: #{@filepath}"
       content = File.read(@filepath)
       UI.multiline_entry_set_text(text_area, content)
-      puts "Archivo cargado: #{@filepath}"
+      puts "==> Archivo cargado: #{@filepath}"
     end
   end
   # Acción: Ejecutar tarea sobre el archivo
