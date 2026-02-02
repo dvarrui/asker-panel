@@ -8,7 +8,7 @@ UI = LibUI
 UI.init
 
 # Ventana principal
-main_window = UI.new_window('Procesador de Archivos Ruby', 600, 400, 1)
+main_window = UI.new_window("Procesador de Archivos Ruby", 600, 400, 1)
 
 # Contenedor vertical principal
 vbox = UI.new_vertical_box
@@ -21,7 +21,7 @@ UI.window_set_child(main_window, vbox)
 # --- COMPONENTES ---
 
 # 1. Botón para abrir explorador de archivos
-btn_abrir = UI.new_button('Seleccionar Archivo')
+btn_abrir = UI.new_button("Seleccionar Archivo")
 
 # 2. Área de texto (Multilínea)
 # Usamos un Non-Wrapping Multiline Entry para el contenido
@@ -29,10 +29,10 @@ text_area = UI.new_non_wrapping_multiline_entry
 UI.multiline_entry_set_read_only(text_area, 0)
 
 # 3. Botón para ejecutar acción (Contar palabras en este ejemplo)
-btn_ejecutar = UI.new_button('Ejecutar Acción (Contar Palabras)')
+btn_ejecutar = UI.new_button("Ejecutar Acción (Contar Palabras)")
 
 # 4. Botón para salir
-btn_salir = UI.new_button('Cerrar Programa')
+btn_salir = UI.new_button("Cerrar Programa")
 
 # --- LÓGICA DE LOS BOTONES ---
 
