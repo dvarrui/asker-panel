@@ -1,4 +1,5 @@
-require 'libui'
+#!/usr/bin/env ruby
+require "libui"
 
 UI = LibUI
 UI.init
