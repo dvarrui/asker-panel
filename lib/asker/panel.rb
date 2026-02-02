@@ -2,9 +2,8 @@
 
 module Asker
   module Panel
-    require_relative "panel/gui"
-
-    build
-    run
+    def self.run
+      require_relative "panel/gui"
+    end
   end
 end

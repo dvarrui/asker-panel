@@ -60,14 +60,11 @@ def build
   end
 end
 
-def run
-  UI.control_show(@main_window)
-  UI.main
-  UI.uninit
-end
-
 UI = LibUI
 UI.init
 @filepath = ""
 build
-run
+
+UI.control_show(@main_window)
+UI.main
+UI.uninit
