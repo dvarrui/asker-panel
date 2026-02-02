@@ -20,3 +20,8 @@ Para empezar de cero se hace lo siguiente:
 
 * **[Ejemplo 2](./example/02-libui.rb):** Selecciona un fichero, lo carga y puedes contar sus palabras.
 
+## Incorporar ejemplo al código
+
+* Se crea el fichero `lib/asker/panel/run.rb` con el contenido del ejemplo.
+* Se modificar `lib/asker/panel.rb` para poder invocar la ejecución desde `Asker::Panel.run`.
+* Se crea script de inicio `asker-panel` para invocar a `Asker::Panel.run`.
