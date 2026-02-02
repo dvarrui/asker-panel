@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "panel/version"
-
 module Asker
   module Panel
-    class Error < StandardError; end
-    # Your code goes here...
+    require_relative "panel/gui"
+
+    build
+    run
   end
 end
