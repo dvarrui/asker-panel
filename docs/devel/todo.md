@@ -19,6 +19,8 @@ Aspecto:
 * Botón "config": para consultar la configuración actual.
 ```
 
+Funcionalidades:
+
 - cargar fichero input(xml, haml)
 - ejecutar `asker` sobre el fichero input(xml, haml)
 - mostrar resultado del check del input(xml, haml)
