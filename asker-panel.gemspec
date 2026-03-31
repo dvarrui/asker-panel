@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.extra_rdoc_files = ["README.md", "LICENSE"] + Dir.glob(File.join("docs", "**", "*.md"))
 
-  s.license = "GPL-3.0"
+  s.license = "MPL-2.0"
   s.authors = ["David Vargas Ruiz"]
   s.email = "teuton.software@protonmail.com"
   s.homepage = "https://github.com/dvarrui/asker-panel"
